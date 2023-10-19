@@ -28,7 +28,12 @@ cd CAC4SSL
 # e.g., for 20% labels on LA
 python ./code/test_3d.py --dataset_name LA --model cacnet3d_emb_64 --exp cacnet_sample_50 --labelnum 16 --gpu 0
 ```
-
+5. Test the biou;
+```
+cd CAC4SSL
+# e.g., for acdc
+python ./test_acdc_biou.py
+```
 
 ### Acknowledgements:
 Our code is origin from [MC-Net](https://github.com/ycwu1997/MC-Net), [UAMT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [DTC](https://github.com/HiLab-git/DTC), [URPC](https://github.com/HiLab-git/SSL4MIS) and [SSL4MIS](https://github.com/HiLab-git/SSL4MIS). Thanks for these authors for their valuable works and hope our model can promote the relevant research as well.
